@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <style>
+        .test:hover {
+    background-color: rgb(172, 211, 255);
+  }
+        .container {
+            
+          height: 600px;
+          position: relative;
+          border: 3px solid green;
+        }
+        .test{
+    height:50px;
+    width:100px;
+    background-color: rgb(244, 244, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: castellar;
+}
+        .center {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+        </style>
+        
+        <div class="container">
+            <img src="bg2.jpg" height="100%" width="100%">
+            <div class="center">
+            <h1>
+            <button  class="test" onclick="location.href='http://localhost/student/student.html';">STUDENT</button>&nbsp;
+            <button  class="test" onclick="location.href='http://localhost/student/teacher.html';">TEACHER</button>&nbsp;
+            <button  class="test" onclick="location.href='http://localhost/student/branch.html';">BRANCH</button>&nbsp;
+            <button  class="test" onclick="location.href='http://localhost/student/fees.html';">FEES</button>&nbsp;
+            <button  class="test" onclick="location.href='http://localhost/student/enroll.html';">ENROLL</button>&nbsp;
+            </h1>
+          </div>
+        </div>
+      <script src="student.html"></script>
+      <script src="teacher.html"></script>
+      <script src="branch.html"></script>
+      <script src="fees.html"></script>
+      <script src="enroll.html"></script>
+</body>
+</html>
