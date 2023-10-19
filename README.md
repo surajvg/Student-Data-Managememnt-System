@@ -1,5 +1,4 @@
 # Student-Data-Managememnt-System
-A CRUD management system using HTML, PHP, CSS, Bootstrap, and MySQL, designed for efficient data handling of teachers, branches, enrollments, fees, and students.
 
 This repository showcases a comprehensive web-based CRUD management system developed using HTML, PHP, CSS, and Bootstrap, with MySQL for data storage. The project emphasizes proficiency in creating, reading, updating, and deleting operations (CRUD) for efficient data management.
 
